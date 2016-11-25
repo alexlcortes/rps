@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>rock paper scissors</title>
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+    <!-- link to css style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+            <header class="banner">rps</header>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-default rocButton" type="button" onclick="setTimeout(choseRock, 1000);"><i class="fa fa-hand-rock-o fa-2x" aria-hidden="true"></i></button>
+            <button class="btn btn-default papButton" type="button" onclick="setTimeout(chosePaper, 1000);"><i class="fa fa-hand-paper-o fa-2x" aria-hidden="true"></i></button>
+            <button class="btn btn-default sciButton" type="button" onclick="setTimeout(choseScissors, 1000);"><i class="fa fa-hand-scissors-o fa-2x" aria-hidden="true"></i></button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="results"><u>The Results:</u></h1>
+                <ul class="gameData">
+                    <li id="uChoice"></li>
+                    <li id="cChoice"></li>
+                    <li id="results"></li>
+                </ul>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="assets/javascript/rock.js"></script>
+<script type="text/javascript" src="assets/javascript/paper.js"></script>
+<script type="text/javascript" src="assets/javascript/scissors.js"></script>
+</body>
+</html>

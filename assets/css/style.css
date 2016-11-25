@@ -1,0 +1,32 @@
+.banner {
+	font-family: 'Bungee Inline', cursive;
+	font-size: 65px;
+}
+
+.gameData {
+	list-style: none;
+}
+
+.rocButton {
+	background-color: #F23557;
+	border: 3px solid #3B4A6B;
+}
+
+.papButton {
+	background-color: #F0D43A;
+	border: 3px solid #3B4A6B;
+}
+
+.sciButton {
+	background-color: #22B2DA;
+	border: 3px solid #3B4A6B;
+}
+
+.results {
+	font-family: 'Bungee Inline', cursive;
+
+}
+
+h3 {
+	font-family: 'Bungee Inline', cursive;		
+}
